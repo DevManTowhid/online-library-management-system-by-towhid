@@ -57,7 +57,7 @@ export default function UserLoginPage() {
                         {/* Login ID / Email */}
                         <div>
                             <label htmlFor="loginId" className="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-1">
-                                **Student ID or Email**
+                                **Email**
                             </label>
                             <input
                                 id="loginId"
