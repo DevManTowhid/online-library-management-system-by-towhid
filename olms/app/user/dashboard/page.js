@@ -99,7 +99,7 @@ export default function UserDashboard() {
         <nav className="flex-1 p-4 space-y-2">
           <NavItem icon={<HomeIcon />} label="Dashboard" active={activeView === 'overview'} onClick={() => setActiveView('overview')} isOpen={sidebarOpen} />
           {/* RENAMED TAB HERE */}
-          <NavItem icon={<SearchIcon />} label="Search and Request" active={activeView === 'search'} onClick={() => setActiveView('search')} isOpen={sidebarOpen} />
+          <NavItem icon={<SearchIcon />} label="Search / Request" active={activeView === 'search'} onClick={() => setActiveView('search')} isOpen={sidebarOpen} />
           <NavItem icon={<BookOpenIcon />} label="My Loans" active={activeView === 'loans'} onClick={() => setActiveView('loans')} isOpen={sidebarOpen} />
           <div className="my-2 border-t border-zinc-100 dark:border-zinc-800"></div>
           <NavItem icon={<UserIcon />} label="Profile" active={activeView === 'profile'} onClick={() => setActiveView('profile')} isOpen={sidebarOpen} />
