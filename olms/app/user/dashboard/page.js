@@ -1,11 +1,13 @@
 "use client";
 
+
+
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Line } from 'react-chartjs-2';
 import Chart from 'chart.js/auto';
 import { XIcon, CheckCircleIcon, AlertTriangleIcon, MenuIcon, LibraryIcon, HomeIcon, SearchIcon, BookOpenIcon, UserIcon, LogOutIcon, InfoIcon } from '@heroicons/react/outline';
-
+import NavItem from "./NavItem";
 // --- MOCK DATA ---
 const MOCK_USER = { 
   name: "Towhid ECE", 
